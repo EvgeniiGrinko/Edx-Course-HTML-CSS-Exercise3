@@ -1,0 +1,61 @@
+html, body {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1px;
+    padding: 1px;
+}
+table, th, td {
+    border: solid black;
+    border-collapse: collapse;
+    background-color: honeydew;
+    text-align: center;
+    font-weight: bold;
+    
+}
+th, td {
+    border-collapse: collapse;
+    padding: 20px;
+    color: green;
+}
+th {background-color: rgb(145, 191, 238);}
+td:hover {
+    color: darkblue;
+}
+tr:hover{
+    background-color: fuchsia;
+}
+h1 {
+    color: darkmagenta;
+    text-align: center;
+    background-color: darkturquoise;
+}
+tr:nth-child(2n) {
+    background-color: skyblue;
+}
+div {
+   
+    width: 100%;
+    background-color: thistle;
+    
+}
+table {
+    width: 100%;
+}
+tfoot {
+    color: yellow;
+    background-color: rgb(89, 122, 23);
+    font-style: italic;
+    font-weight: bold;
+}
+html {
+    background-color: oldlace;
+}
+section p {
+    font-size: 17px;
+    text-align: left;
+background-color: palegreen;
+color: rebeccapurple;
+}
+section {
+    background-color: salmon;
+}
